@@ -61,16 +61,16 @@ namespace AppendWindowChromeContextMenu
             {
                 //check which menu item was clicked
                 switch (wParam.ToInt32())
-                    {
-                        case _ItemOneMenuId:
-                            MessageBox.Show("Item 1 was clicked");
-                            handled = true;
-                            break;
-                        case _ItemTwoMenuID:
-                            MessageBox.Show("Item 2 was clicked");
-                            handled = true;
-                            break;
-                    }
+                {
+                    case _ItemOneMenuId:
+                        MessageBox.Show("Item 1 was clicked");
+                        handled = true;
+                        break;
+                    case _ItemTwoMenuID:
+                        MessageBox.Show("Item 2 was clicked");
+                        handled = true;
+                        break;
+                }
             }
 
             return IntPtr.Zero;
